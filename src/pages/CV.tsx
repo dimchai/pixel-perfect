@@ -243,6 +243,26 @@ export default function CVPage() {
         <meta name="description" content="Αναλυτικό βιογραφικό του Δημήτριου Χαϊδάρογλου: εκπαίδευση, εξειδίκευση στο Oxford, επιστημονικές δημοσιεύσεις και συνέδρια αγγειοχειρουργικής." />
         <meta name="keywords" content="βιογραφικό αγγειοχειρουργού, Δημήτριος Χαϊδάρογλου CV, εξειδίκευση αγγειοχειρουργική, Oxford University Hospitals, δημοσιεύσεις αγγειοχειρουργική, συνέδρια αγγειολογίας" />
         <link rel="canonical" href="https://aggeio.eu/cv" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://aggeio.eu/cv" />
+        <meta property="og:title" content="Βιογραφικό | Δημήτριος Χαϊδάρογλου - Αγγειοχειρουργός" />
+        <meta property="og:description" content="Εκπαίδευση στο Oxford University Hospitals, επιστημονικές δημοσιεύσεις, διεθνή συνέδρια. Αναλυτικό CV αγγειοχειρουργού." />
+        <meta property="og:image" content="https://aggeio.eu/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="el_GR" />
+        <meta property="og:site_name" content="Αγγειοχειρουργός Χαϊδάρογλου" />
+        <meta property="profile:first_name" content="Δημήτριος" />
+        <meta property="profile:last_name" content="Χαϊδάρογλου" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://aggeio.eu/cv" />
+        <meta name="twitter:title" content="Βιογραφικό | Δημήτριος Χαϊδάρογλου" />
+        <meta name="twitter:description" content="Εκπαίδευση στο Oxford, επιστημονικές δημοσιεύσεις, διεθνή συνέδρια." />
+        <meta name="twitter:image" content="https://aggeio.eu/og-image.jpg" />
       </Helmet>
       <Header />
 

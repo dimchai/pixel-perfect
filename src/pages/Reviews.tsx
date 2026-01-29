@@ -73,6 +73,24 @@ export default function ReviewsPage() {
         <meta name="description" content="Διαβάστε τις κριτικές και εμπειρίες ασθενών για τον αγγειοχειρουργό Δημήτριο Χαϊδάρογλου. 5/5 βαθμολογία σε Google Reviews και Doctoranytime." />
         <meta name="keywords" content="κριτικές αγγειοχειρουργός, γνώμες ασθενών, αξιολογήσεις γιατρού, θεραπεία κιρσών εμπειρίες, αγγειοχειρουργός Αθήνα κριτικές, Doctoranytime κριτικές" />
         <link rel="canonical" href="https://aggeio.eu/reviews" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aggeio.eu/reviews" />
+        <meta property="og:title" content="Κριτικές Ασθενών | Αγγειοχειρουργός Χαϊδάρογλου" />
+        <meta property="og:description" content="5/5 βαθμολογία σε Google Reviews και Doctoranytime. Διαβάστε τις εμπειρίες ασθενών για θεραπεία κιρσών και αγγειακών παθήσεων." />
+        <meta property="og:image" content="https://aggeio.eu/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="el_GR" />
+        <meta property="og:site_name" content="Αγγειοχειρουργός Χαϊδάρογλου" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://aggeio.eu/reviews" />
+        <meta name="twitter:title" content="Κριτικές Ασθενών | Αγγειοχειρουργός" />
+        <meta name="twitter:description" content="5/5 βαθμολογία. Διαβάστε τις εμπειρίες ασθενών." />
+        <meta name="twitter:image" content="https://aggeio.eu/og-image.jpg" />
       </Helmet>
       <Header />
       

@@ -100,6 +100,24 @@ export default function BookingPage() {
         <meta name="description" content="Κλείστε ραντεβού με τον αγγειοχειρουργό Δημήτριο Χαϊδάρογλου. Ιατρεία σε Χαλάνδρι και Πειραιά. Online φόρμα ή τηλεφωνικά στο 697 848 0523." />
         <meta name="keywords" content="ραντεβού αγγειοχειρουργός, κλείσιμο ραντεβού, αγγειοχειρουργός Χαλάνδρι, αγγειοχειρουργός Πειραιάς, εξέταση κιρσών, triplex αγγείων ραντεβού" />
         <link rel="canonical" href="https://aggeio.eu/booking" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aggeio.eu/booking" />
+        <meta property="og:title" content="Κλείστε Ραντεβού | Αγγειοχειρουργός Χαϊδάρογλου" />
+        <meta property="og:description" content="Κλείστε ραντεβού online ή τηλεφωνικά στο 697 848 0523. Ιατρεία σε Χαλάνδρι και Πειραιά. Triplex αγγείων, θεραπεία κιρσών." />
+        <meta property="og:image" content="https://aggeio.eu/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="el_GR" />
+        <meta property="og:site_name" content="Αγγειοχειρουργός Χαϊδάρογλου" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://aggeio.eu/booking" />
+        <meta name="twitter:title" content="Κλείστε Ραντεβού | Αγγειοχειρουργός" />
+        <meta name="twitter:description" content="Κλείστε ραντεβού online ή στο 697 848 0523. Ιατρεία Χαλάνδρι & Πειραιάς." />
+        <meta name="twitter:image" content="https://aggeio.eu/og-image.jpg" />
       </Helmet>
       <Header />
       

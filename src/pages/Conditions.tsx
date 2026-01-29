@@ -376,6 +376,24 @@ export default function ConditionsPage() {
         <meta name="description" content="Ενημερωθείτε για τις αγγειακές παθήσεις: φλεβική ανεπάρκεια, κιρσοί, ανεύρυσμα αορτής, περιφερική αρτηριακή νόσος, καρωτιδική νόσος. Συμπτώματα και σύγχρονες θεραπείες." />
         <meta name="keywords" content="φλεβική ανεπάρκεια, χρόνια φλεβική ανεπάρκεια, κιρσοί ποδιών, φλεβίτιδα, θρόμβωση φλεβών, DVT, εν τω βάθει φλεβοθρόμβωση, ευρυαγγείες, τελαγγειεκτασίες, φλεβικά έλκη, ανεύρυσμα αορτής, ανεύρυσμα κοιλιακής αορτής, EVAR, περιφερική αρτηριακή νόσος, αθηροσκλήρυνση, διαλείπουσα χωλότητα, κρίσιμη ισχαιμία, καρωτιδική νόσος, στένωση καρωτίδας, εγκεφαλικό, διαβητικό πόδι" />
         <link rel="canonical" href="https://aggeio.eu/conditions" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aggeio.eu/conditions" />
+        <meta property="og:title" content="Αγγειακές Παθήσεις | Δημήτριος Χαϊδάρογλου" />
+        <meta property="og:description" content="Φλεβική ανεπάρκεια, κιρσοί, ανεύρυσμα αορτής, περιφερική αρτηριακή νόσος, καρωτιδική νόσος. Συμπτώματα, διάγνωση και σύγχρονες θεραπείες." />
+        <meta property="og:image" content="https://aggeio.eu/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="el_GR" />
+        <meta property="og:site_name" content="Αγγειοχειρουργός Χαϊδάρογλου" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://aggeio.eu/conditions" />
+        <meta name="twitter:title" content="Αγγειακές Παθήσεις | Αγγειοχειρουργός" />
+        <meta name="twitter:description" content="Φλεβική ανεπάρκεια, κιρσοί, ανεύρυσμα, καρωτιδική νόσος. Συμπτώματα και θεραπείες." />
+        <meta name="twitter:image" content="https://aggeio.eu/og-image.jpg" />
       </Helmet>
       <Header />
       

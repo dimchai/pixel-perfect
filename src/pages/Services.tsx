@@ -68,6 +68,24 @@ export default function ServicesPage() {
         <meta name="description" content="Σύγχρονες υπηρεσίες αγγειοχειρουργικής: Triplex αγγείων, θεραπεία κιρσών με laser (EVLA), σκληροθεραπεία, αντιμετώπιση αρτηριακών παθήσεων. Ιατρεία σε Χαλάνδρι & Πειραιά." />
         <meta name="keywords" content="triplex αγγείων, υπερηχογράφημα φλεβών, θεραπεία κιρσών, laser κιρσοί, EVLA, ενδοφλεβική θεραπεία laser, σκληροθεραπεία, αφαίρεση κιρσών, αρτηριακές παθήσεις, αγγειοπλαστική, stent αγγείων, αγγειοχειρουργός Αθήνα, ελάχιστα επεμβατικές τεχνικές, ενδαγγειακή θεραπεία" />
         <link rel="canonical" href="https://aggeio.eu/services" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aggeio.eu/services" />
+        <meta property="og:title" content="Υπηρεσίες Αγγειοχειρουργικής | Δημήτριος Χαϊδάρογλου" />
+        <meta property="og:description" content="Triplex αγγείων, θεραπεία κιρσών με laser (EVLA), σκληροθεραπεία, αντιμετώπιση αρτηριακών παθήσεων. Σύγχρονες ελάχιστα επεμβατικές τεχνικές." />
+        <meta property="og:image" content="https://aggeio.eu/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="el_GR" />
+        <meta property="og:site_name" content="Αγγειοχειρουργός Χαϊδάρογλου" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://aggeio.eu/services" />
+        <meta name="twitter:title" content="Υπηρεσίες Αγγειοχειρουργικής | Δημήτριος Χαϊδάρογλου" />
+        <meta name="twitter:description" content="Triplex αγγείων, θεραπεία κιρσών με laser (EVLA), σκληροθεραπεία." />
+        <meta name="twitter:image" content="https://aggeio.eu/og-image.jpg" />
       </Helmet>
       <Header />
       

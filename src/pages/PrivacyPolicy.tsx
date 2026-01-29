@@ -74,6 +74,23 @@ const PrivacyPolicy = () => {
         <meta name="description" content="Πολιτική απορρήτου και προστασία προσωπικών δεδομένων. Μάθετε πώς συλλέγουμε, χρησιμοποιούμε και προστατεύουμε τα δεδομένα σας σύμφωνα με το GDPR." />
         <meta name="keywords" content="πολιτική απορρήτου, GDPR, προστασία δεδομένων, cookies, προσωπικά δεδομένα, ιατρικά δεδομένα" />
         <link rel="canonical" href="https://aggeio.eu/privacy" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aggeio.eu/privacy" />
+        <meta property="og:title" content="Πολιτική Απορρήτου | Αγγειοχειρουργός Χαϊδάρογλου" />
+        <meta property="og:description" content="Πολιτική απορρήτου και προστασία προσωπικών δεδομένων σύμφωνα με το GDPR." />
+        <meta property="og:image" content="https://aggeio.eu/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="el_GR" />
+        <meta property="og:site_name" content="Αγγειοχειρουργός Χαϊδάρογλου" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://aggeio.eu/privacy" />
+        <meta name="twitter:title" content="Πολιτική Απορρήτου" />
+        <meta name="twitter:description" content="Πολιτική απορρήτου και προστασία δεδομένων GDPR." />
       </Helmet>
       <Header />
       
