@@ -109,13 +109,34 @@ Allow: /
 # AI & LLM CRAWLERS
 # ===========================================
 
+# OpenAI
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google AI
 User-agent: Google-Extended
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: Gemini-Deep-Research
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: Anthropic-AI
@@ -124,46 +145,82 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-User-agent: Cohere-AI
-Allow: /
-
+# Perplexity
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: YouBot
+User-agent: Perplexity-User
 Allow: /
 
-User-agent: Applebot
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
+# Meta AI
 User-agent: Meta-ExternalAgent
 Allow: /
 
 User-agent: Meta-ExternalFetcher
 Allow: /
 
-User-agent: OAI-SearchBot
+User-agent: Meta-WebIndexer
 Allow: /
 
+# Apple (Siri)
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Amazon (Alexa)
+User-agent: Amazonbot
+Allow: /
+
+# Microsoft Copilot (via Bing)
+User-agent: Bingbot
+Allow: /
+
+# DuckDuckGo AI
+User-agent: DuckAssistBot
+Allow: /
+
+# ByteDance (TikTok AI)
 User-agent: Bytespider
 Allow: /
 
+# Mistral AI
+User-agent: MistralAI-User
+Allow: /
+
+# Cohere
+User-agent: Cohere-AI
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Common Crawl (used by many AI companies)
+User-agent: CCBot
+Allow: /
+
+# AI2 (Allen Institute)
 User-agent: AI2Bot
 Allow: /
 
+# Diffbot
 User-agent: Diffbot
+Allow: /
+
+# Webz.io (formerly Omgili)
+User-agent: webzio
 Allow: /
 
 User-agent: omgili
 Allow: /
 
 User-agent: omgilibot
+Allow: /
+
+# ICC-Crawler (NICT Japan)
+User-agent: ICC-Crawler
 Allow: /
 
 # ===========================================
