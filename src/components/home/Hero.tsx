@@ -46,7 +46,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-xl leading-relaxed"
           >
-            15+ χρόνια εμπειρίας στη σύγχρονη αγγειοχειρουργική. 
+            10+ χρόνια εμπειρίας στη σύγχρονη αγγειοχειρουργική. 
             Εξειδίκευση σε ενδαγγειακές τεχνικές και θεραπεία κιρσών με laser.
           </motion.p>
 

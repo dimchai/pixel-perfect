@@ -54,9 +54,9 @@ export function About() {
               className="absolute -bottom-6 -right-6 md:right-8 bg-card rounded-xl p-4 shadow-card-hover"
             >
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
-                  <span className="text-primary-foreground font-heading font-bold text-xl">
-                    15+
+              <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
+                <span className="text-primary-foreground font-heading font-bold text-xl">
+                  10+
                   </span>
                 </div>
                 <div>
@@ -82,7 +82,7 @@ export function About() {
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Ο Dr. Δημήτριος Χαϊδάρογλου είναι ειδικευμένος αγγειοχειρουργός με 
-              περισσότερα από 15 χρόνια εμπειρίας στη σύγχρονη αγγειοχειρουργική 
+              περισσότερα από 10 χρόνια εμπειρίας στη σύγχρονη αγγειοχειρουργική
               και τις ενδαγγειακές τεχνικές.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">

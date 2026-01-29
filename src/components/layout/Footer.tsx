@@ -24,7 +24,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              15+ χρόνια εμπειρίας στη σύγχρονη αγγειοχειρουργική και ενδαγγειακές τεχνικές.
+              10+ χρόνια εμπειρίας στη σύγχρονη αγγειοχειρουργική και ενδαγγειακές τεχνικές.
             </p>
           </div>
 
