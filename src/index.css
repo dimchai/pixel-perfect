@@ -9,33 +9,33 @@
 
 @layer base {
   :root {
-    /* Primary - Slate Blue-Gray (from business card circle) */
-    --primary: 210 25% 45%;
+    /* Primary - Steel Gray/Silver (from logo - minimal blue saturation) */
+    --primary: 210 8% 50%;
     --primary-foreground: 0 0% 100%;
     
-    /* Secondary - Darker Slate for CTAs */
-    --secondary: 210 20% 35%;
+    /* Secondary - Darker Steel Gray for CTAs */
+    --secondary: 210 6% 40%;
     --secondary-foreground: 0 0% 100%;
     
     /* Background & Surfaces - Clean off-white/light gray */
     --background: 0 0% 97%;
-    --foreground: 210 15% 25%;
+    --foreground: 210 6% 25%;
     
     /* Card Surfaces */
     --card: 0 0% 100%;
-    --card-foreground: 210 15% 25%;
+    --card-foreground: 210 6% 25%;
     
     /* Popover */
     --popover: 0 0% 100%;
-    --popover-foreground: 210 15% 25%;
+    --popover-foreground: 210 6% 25%;
     
     /* Muted Elements */
-    --muted: 210 15% 93%;
-    --muted-foreground: 210 10% 50%;
+    --muted: 210 5% 93%;
+    --muted-foreground: 210 5% 50%;
     
-    /* Accent - Light slate blue */
-    --accent: 210 20% 90%;
-    --accent-foreground: 210 25% 35%;
+    /* Accent - Light silver-gray */
+    --accent: 210 6% 90%;
+    --accent-foreground: 210 8% 35%;
     
     /* Destructive */
     --destructive: 0 72% 51%;
@@ -46,45 +46,45 @@
     --success-foreground: 0 0% 100%;
     
     /* Borders & Inputs */
-    --border: 210 15% 88%;
-    --input: 210 15% 88%;
-    --ring: 210 25% 45%;
+    --border: 210 5% 85%;
+    --input: 210 5% 85%;
+    --ring: 210 8% 50%;
     
     /* Border Radius */
     --radius: 0.5rem;
     
     /* Sidebar */
     --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 210 15% 30%;
-    --sidebar-primary: 210 25% 45%;
+    --sidebar-foreground: 210 6% 30%;
+    --sidebar-primary: 210 8% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 15% 93%;
-    --sidebar-accent-foreground: 210 15% 30%;
-    --sidebar-border: 210 15% 88%;
-    --sidebar-ring: 210 25% 45%;
+    --sidebar-accent: 210 5% 93%;
+    --sidebar-accent-foreground: 210 6% 30%;
+    --sidebar-border: 210 5% 85%;
+    --sidebar-ring: 210 8% 50%;
   }
 
   .dark {
-    --primary: 210 25% 55%;
+    --primary: 210 8% 60%;
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 210 20% 45%;
+    --secondary: 210 6% 50%;
     --secondary-foreground: 0 0% 100%;
     
-    --background: 210 20% 10%;
-    --foreground: 210 15% 92%;
+    --background: 210 8% 10%;
+    --foreground: 210 5% 92%;
     
-    --card: 210 20% 14%;
-    --card-foreground: 210 15% 92%;
+    --card: 210 8% 14%;
+    --card-foreground: 210 5% 92%;
     
-    --popover: 210 20% 14%;
-    --popover-foreground: 210 15% 92%;
+    --popover: 210 8% 14%;
+    --popover-foreground: 210 5% 92%;
     
-    --muted: 210 15% 18%;
-    --muted-foreground: 210 10% 60%;
+    --muted: 210 5% 18%;
+    --muted-foreground: 210 5% 60%;
     
-    --accent: 210 20% 22%;
-    --accent-foreground: 210 25% 70%;
+    --accent: 210 6% 22%;
+    --accent-foreground: 210 8% 70%;
     
     --destructive: 0 62.8% 45%;
     --destructive-foreground: 0 0% 100%;
@@ -92,18 +92,18 @@
     --success: 145 63% 35%;
     --success-foreground: 0 0% 100%;
     
-    --border: 210 15% 22%;
-    --input: 210 15% 22%;
-    --ring: 210 25% 55%;
+    --border: 210 5% 22%;
+    --input: 210 5% 22%;
+    --ring: 210 8% 60%;
     
-    --sidebar-background: 210 20% 10%;
-    --sidebar-foreground: 210 15% 92%;
-    --sidebar-primary: 210 25% 55%;
+    --sidebar-background: 210 8% 10%;
+    --sidebar-foreground: 210 5% 92%;
+    --sidebar-primary: 210 8% 60%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 15% 18%;
-    --sidebar-accent-foreground: 210 15% 92%;
-    --sidebar-border: 210 15% 22%;
-    --sidebar-ring: 210 25% 55%;
+    --sidebar-accent: 210 5% 18%;
+    --sidebar-accent-foreground: 210 5% 92%;
+    --sidebar-border: 210 5% 22%;
+    --sidebar-ring: 210 8% 60%;
   }
 }
 
@@ -130,8 +130,8 @@
   .hero-overlay {
     background: linear-gradient(
       135deg,
-      hsl(210 25% 45% / 0.92) 0%,
-      hsl(210 20% 35% / 0.95) 100%
+      hsl(210 8% 50% / 0.92) 0%,
+      hsl(210 6% 40% / 0.95) 100%
     );
   }
 
@@ -142,7 +142,7 @@
   
   .card-hover:hover {
     @apply -translate-y-1;
-    box-shadow: 0 12px 40px -12px hsl(210 25% 45% / 0.2);
+    box-shadow: 0 12px 40px -12px hsl(210 8% 50% / 0.2);
   }
 
   /* Trust Badge Styling */
@@ -166,8 +166,8 @@
     @apply bg-clip-text text-transparent;
     background-image: linear-gradient(
       135deg,
-      hsl(210 25% 45%) 0%,
-      hsl(210 25% 55%) 100%
+      hsl(210 8% 50%) 0%,
+      hsl(210 8% 60%) 100%
     );
   }
 

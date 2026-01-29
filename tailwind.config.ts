@@ -73,7 +73,7 @@ export default {
       },
       boxShadow: {
         card: "0 4px 12px rgba(0, 0, 0, 0.08)",
-        "card-hover": "0 12px 40px -12px hsl(210 25% 45% / 0.2)",
+        "card-hover": "0 12px 40px -12px hsl(210 8% 50% / 0.2)",
         hero: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
       },
       keyframes: {
