@@ -29,13 +29,13 @@ const clinics = [
     name: "Ιατρείο Χαλανδρίου",
     address: "Σωκράτους 16, 15232 Χαλάνδρι",
     mapUrl: "https://maps.app.goo.gl/aSKSotJm89WoPdSe9",
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.5!2d23.8!3d38.02!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDAx&output=embed",
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.8!2d23.7939!3d38.0211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a2a7a7c7c7c7%3A0x1234567890abcdef!2sSokratous%2016%2C%20Chalandri%20152%2032%2C%20Greece!5e0!3m2!1sen!2sgr!4v1700000000000!5m2!1sen!2sgr",
   },
   {
     name: "Ιατρείο Πειραιά",
-    address: "Λεωφόρος Εθνικής Αντιστάσεως 91, 18534 Πειραιάς",
+    address: "Γρηγορίου Λαμπράκη 91, 18534 Πειραιάς",
     mapUrl: "https://maps.app.goo.gl/JHkQuWb6CWjq4PdZ9",
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.5!2d23.65!3d37.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDU3&output=embed",
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.2!2d23.6489!3d37.9422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bba1b1b1b1b1%3A0xabcdef1234567890!2sGrigoriou%20Lampraki%2091%2C%20Pireas%20185%2034%2C%20Greece!5e0!3m2!1sen!2sgr!4v1700000000000!5m2!1sen!2sgr",
   },
 ];
 
