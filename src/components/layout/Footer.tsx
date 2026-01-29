@@ -60,7 +60,7 @@ export function Footer() {
               <li>
                 <a
                   href="tel:+306978480523"
-                  className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
+                  className="flex items-center gap-2 text-primary-foreground hover:text-white transition-colors text-sm font-medium"
                 >
                   <Phone className="w-4 h-4" />
                   +30 697 848 0523
@@ -69,7 +69,7 @@ export function Footer() {
               <li>
                 <a
                   href="mailto:info@aggeio.eu"
-                  className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
+                  className="flex items-center gap-2 text-primary-foreground hover:text-white transition-colors text-sm font-medium"
                 >
                   <Mail className="w-4 h-4" />
                   info@aggeio.eu
@@ -80,7 +80,7 @@ export function Footer() {
                   href="https://www.doctoranytime.gr/d/Aggeiocheirourgos/xaidaroglou-dimitrios"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-primary-foreground hover:text-primary-foreground/80 transition-colors text-sm font-medium"
+                  className="flex items-center gap-2 text-primary-foreground hover:text-white transition-colors text-sm font-medium"
                 >
                   <ExternalLink className="w-4 h-4" />
                   Doctoranytime Profile
