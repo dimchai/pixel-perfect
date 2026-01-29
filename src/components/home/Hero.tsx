@@ -2,15 +2,28 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Calendar, ExternalLink, Star, Users, Award } from "lucide-react";
 import { motion } from "framer-motion";
+import { useLazyBackground } from "@/hooks/use-lazy-background";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export function Hero() {
+  const { ref: bgRef, isLoaded, backgroundStyle } = useLazyBackground(heroBg);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Image with Lazy Loading */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
+        ref={bgRef}
+        className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-700 ${
+          isLoaded ? "opacity-100" : "opacity-0"
+        }`}
+        style={backgroundStyle}
+      />
+      
+      {/* Placeholder while loading */}
+      <div
+        className={`absolute inset-0 bg-primary transition-opacity duration-700 ${
+          isLoaded ? "opacity-0" : "opacity-100"
+        }`}
       />
       
       {/* Overlay */}

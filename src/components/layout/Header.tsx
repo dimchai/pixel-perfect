@@ -48,6 +48,7 @@ export function Header() {
               src={logo} 
               alt="Χαϊδάρογλου Logo" 
               className="w-10 h-10 md:w-12 md:h-12 object-contain"
+              loading="eager"
             />
             <div className="hidden lg:block">
               <p
