@@ -49,6 +49,26 @@ export default function AboutPage() {
         <meta name="description" content="Γνωρίστε τον Δημήτριο Χαϊδάρογλου, ειδικευμένο αγγειοχειρουργό με 10+ χρόνια εμπειρίας. Εκπαίδευση στο Oxford, ιατρεία σε Χαλάνδρι και Πειραιά." />
         <meta name="keywords" content="Δημήτριος Χαϊδάρογλου, αγγειοχειρουργός Αθήνα, αγγειοχειρουργός Χαλάνδρι, αγγειοχειρουργός Πειραιάς, αγγειολόγος Αθήνα, ειδικός κιρσών, ειδικός φλεβών, αγγειοχειρουργικό ιατρείο, vascular surgeon Athens" />
         <link rel="canonical" href="https://aggeio.eu/about" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://aggeio.eu/about" />
+        <meta property="og:title" content="Δημήτριος Χαϊδάρογλου | Αγγειοχειρουργός Αθήνα" />
+        <meta property="og:description" content="Ειδικευμένος Αγγειοχειρουργός με 10+ χρόνια εμπειρίας. Εκπαίδευση στο Oxford University Hospitals. Ιατρεία σε Χαλάνδρι και Πειραιά." />
+        <meta property="og:image" content="https://aggeio.eu/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:locale" content="el_GR" />
+        <meta property="og:site_name" content="Αγγειοχειρουργός Χαϊδάρογλου" />
+        <meta property="profile:first_name" content="Δημήτριος" />
+        <meta property="profile:last_name" content="Χαϊδάρογλου" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://aggeio.eu/about" />
+        <meta name="twitter:title" content="Δημήτριος Χαϊδάρογλου | Αγγειοχειρουργός" />
+        <meta name="twitter:description" content="Ειδικευμένος Αγγειοχειρουργός με 10+ χρόνια εμπειρίας. Εκπαίδευση στο Oxford." />
+        <meta name="twitter:image" content="https://aggeio.eu/og-image.jpg" />
       </Helmet>
       <Header />
       
