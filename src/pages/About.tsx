@@ -13,9 +13,9 @@ const education = [
     institution: "Δημοκρίτειο Πανεπιστήμιο Θράκης",
   },
   {
-    year: "2015-2016",
+    year: "2018-2021",
     title: "Εξειδίκευση Αγγειοχειρουργικής",
-    institution: "Oxford University Hospitals, UK",
+    institution: "ΓΝΑ Σισμανογλείο",
   },
   {
     year: "2018",
