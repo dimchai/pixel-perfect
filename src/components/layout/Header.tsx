@@ -96,7 +96,7 @@ export function Header() {
                 className={
                   isScrolled
                     ? "border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                    : "border-primary-foreground/50 text-primary-foreground hover:bg-primary-foreground/10"
+                    : "border-primary-foreground text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20"
                 }
               >
                 <Phone className="w-4 h-4" />
