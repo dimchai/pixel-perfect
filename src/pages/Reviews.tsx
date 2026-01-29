@@ -166,7 +166,7 @@ export default function ReviewsPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://www.doctoranytime.gr/doctorcrmv2/Profile/Redesign?doctorAdminId=0&doctorid=75147"
+                href="https://www.doctoranytime.gr/d/Aggeiocheirourgos/xaidaroglou-dimitrios"
                 target="_blank"
                 rel="noopener noreferrer"
               >
