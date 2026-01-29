@@ -309,7 +309,7 @@ export default function BookingPage() {
                     </div>
                   </a>
                   <a
-                    href="https://www.doctoranytime.gr/doctorcrmv2/Profile/Redesign?doctorAdminId=0&doctorid=75147"
+                    href="https://www.doctoranytime.gr/d/Aggeiocheirourgos/xaidaroglou-dimitrios"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 rounded-xl bg-accent hover:bg-accent/80 transition-colors"
