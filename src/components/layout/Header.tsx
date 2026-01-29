@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/logo.webp";
 
 const navItems = [
   { label: "Αρχική", path: "/" },
@@ -41,12 +42,12 @@ export function Header() {
       <div className="section-container">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">
-                ΔΧ
-              </span>
-            </div>
+          <Link to="/" className="flex items-center gap-3">
+            <img 
+              src={logo} 
+              alt="Dr. Χαϊδάρογλου Logo" 
+              className="w-12 h-12 md:w-14 md:h-14 object-contain"
+            />
             <div className="hidden sm:block">
               <p
                 className={`font-heading font-semibold text-sm leading-tight ${
