@@ -8,19 +8,19 @@ import doctorPortrait from "@/assets/doctor-portrait.jpg";
 
 const education = [
   {
-    year: "2008",
+    year: "2006-2012",
     title: "Πτυχίο Ιατρικής",
     institution: "Δημοκρίτειο Πανεπιστήμιο Θράκης",
+  },
+  {
+    year: "2015-2016",
+    title: "Εξειδίκευση Αγγειοχειρουργικής",
+    institution: "Oxford University Hospitals, UK",
   },
   {
     year: "2018-2021",
     title: "Εξειδίκευση Αγγειοχειρουργικής",
     institution: "ΓΝΑ Σισμανογλείο",
-  },
-  {
-    year: "2018",
-    title: "Μεταπτυχιακό Ενδαγγειακών Τεχνικών",
-    institution: "Εθνικό & Καποδιστριακό Πανεπιστήμιο Αθηνών",
   },
 ];
 
