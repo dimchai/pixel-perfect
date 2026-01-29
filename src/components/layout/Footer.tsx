@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, ExternalLink } from "lucide-react";
+import logo from "@/assets/logo.webp";
 
 export function Footer() {
   return (
@@ -9,11 +10,11 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-full bg-primary-foreground flex items-center justify-center">
-                <span className="text-primary font-heading font-bold text-xl">
-                  ΔΧ
-                </span>
-              </div>
+              <img 
+                src={logo} 
+                alt="Dr. Χαϊδάρογλου Logo - Αγγειοχειρουργός" 
+                className="w-14 h-14 object-contain"
+              />
               <div>
                 <p className="font-heading font-semibold text-lg">
                   Dr. Δημήτριος Χαϊδάρογλου
