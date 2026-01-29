@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Star, Quote, ExternalLink } from "lucide-react";
@@ -67,6 +68,12 @@ const itemVariants = {
 export default function ReviewsPage() {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Κριτικές Ασθενών | Δημήτριος Χαϊδάρογλου - Αγγειοχειρουργός</title>
+        <meta name="description" content="Διαβάστε τις κριτικές και εμπειρίες ασθενών για τον αγγειοχειρουργό Δημήτριο Χαϊδάρογλου. 5/5 βαθμολογία σε Google Reviews και Doctoranytime." />
+        <meta name="keywords" content="κριτικές αγγειοχειρουργός, γνώμες ασθενών, αξιολογήσεις γιατρού, θεραπεία κιρσών εμπειρίες, αγγειοχειρουργός Αθήνα κριτικές, Doctoranytime κριτικές" />
+        <link rel="canonical" href="https://aggeio.eu/reviews" />
+      </Helmet>
       <Header />
       
       {/* Hero Section */}

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { GraduationCap, Award, MapPin, Phone, Mail, ExternalLink, Calendar } from "lucide-react";
@@ -43,6 +44,12 @@ const clinics = [
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Σχετικά με Εμάς | Δημήτριος Χαϊδάρογλου - Αγγειοχειρουργός Αθήνα</title>
+        <meta name="description" content="Γνωρίστε τον Δημήτριο Χαϊδάρογλου, ειδικευμένο αγγειοχειρουργό με 10+ χρόνια εμπειρίας. Εκπαίδευση στο Oxford, ιατρεία σε Χαλάνδρι και Πειραιά." />
+        <meta name="keywords" content="Δημήτριος Χαϊδάρογλου, αγγειοχειρουργός Αθήνα, αγγειοχειρουργός Χαλάνδρι, αγγειοχειρουργός Πειραιάς, αγγειολόγος Αθήνα, ειδικός κιρσών, ειδικός φλεβών, αγγειοχειρουργικό ιατρείο, vascular surgeon Athens" />
+        <link rel="canonical" href="https://aggeio.eu/about" />
+      </Helmet>
       <Header />
       
       {/* Hero Section */}

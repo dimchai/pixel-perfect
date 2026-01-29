@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { 
@@ -237,6 +238,12 @@ const itemVariants = {
 export default function CVPage() {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Βιογραφικό | Δημήτριος Χαϊδάρογλου - Αγγειοχειρουργός</title>
+        <meta name="description" content="Αναλυτικό βιογραφικό του Δημήτριου Χαϊδάρογλου: εκπαίδευση, εξειδίκευση στο Oxford, επιστημονικές δημοσιεύσεις και συνέδρια αγγειοχειρουργικής." />
+        <meta name="keywords" content="βιογραφικό αγγειοχειρουργού, Δημήτριος Χαϊδάρογλου CV, εξειδίκευση αγγειοχειρουργική, Oxford University Hospitals, δημοσιεύσεις αγγειοχειρουργική, συνέδρια αγγειολογίας" />
+        <link rel="canonical" href="https://aggeio.eu/cv" />
+      </Helmet>
       <Header />
 
       {/* Hero Section */}
