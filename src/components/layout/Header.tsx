@@ -42,13 +42,13 @@ export function Header() {
       <div className="section-container">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-2 shrink-0">
             <img 
               src={logo} 
               alt="Dr. Χαϊδάρογλου Logo" 
-              className="w-12 h-12 md:w-14 md:h-14 object-contain"
+              className="w-10 h-10 md:w-12 md:h-12 object-contain"
             />
-            <div className="hidden sm:block">
+            <div className="hidden lg:block">
               <p
                 className={`font-heading font-semibold text-sm leading-tight ${
                   isScrolled ? "text-foreground" : "text-primary-foreground"
