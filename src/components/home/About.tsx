@@ -38,7 +38,7 @@ export function About() {
             <div className="relative rounded-2xl overflow-hidden shadow-hero">
               <img
                 src={doctorPortrait}
-                alt="Dr. Δημήτριος Χαϊδάρογλου"
+                alt="Δημήτριος Χαϊδάρογλου"
                 className="w-full h-auto object-cover"
               />
               {/* Overlay gradient */}
@@ -81,7 +81,7 @@ export function About() {
               Εμπειρία & Εξειδίκευση στην Αγγειοχειρουργική
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Ο Dr. Δημήτριος Χαϊδάρογλου είναι ειδικευμένος αγγειοχειρουργός με 
+              Ο Δημήτριος Χαϊδάρογλου είναι ειδικευμένος αγγειοχειρουργός με 
               περισσότερα από 10 χρόνια εμπειρίας στη σύγχρονη αγγειοχειρουργική
               και τις ενδαγγειακές τεχνικές.
             </p>
