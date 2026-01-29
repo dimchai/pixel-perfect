@@ -35,7 +35,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 leading-tight"
           >
-            Dr. Δημήτριος
+            Δημήτριος
             <br />
             Χαϊδάρογλου
           </motion.h1>
