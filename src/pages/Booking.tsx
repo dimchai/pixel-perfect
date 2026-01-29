@@ -16,7 +16,9 @@ import {
 } from "@/components/ui/select";
 import { motion } from "framer-motion";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
+
+// PHP endpoint URL - change this to your server's URL after deployment
+const CONTACT_ENDPOINT = "/api/contact.php";
 
 const clinics = [
   {
@@ -49,18 +51,24 @@ export default function BookingPage() {
     setIsSubmitting(true);
 
     try {
-      const { data, error } = await supabase.functions.invoke('send-contact-email', {
-        body: {
+      const response = await fetch(CONTACT_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
           name: formData.name.trim(),
           email: formData.email.trim(),
           phone: formData.phone.trim(),
           service: formData.service,
           clinic: formData.clinic,
-          message: formData.message.trim() || undefined,
-        },
+          message: formData.message.trim() || '',
+        }),
       });
 
-      if (error) throw error;
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
 
       setIsSuccess(true);
       
