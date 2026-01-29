@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Stethoscope, Zap, Heart, CheckCircle, Calendar, ArrowRight } from "lucide-react";
@@ -62,6 +63,12 @@ const services = [
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Υπηρεσίες Αγγειοχειρουργικής | Δημήτριος Χαϊδάρογλου</title>
+        <meta name="description" content="Σύγχρονες υπηρεσίες αγγειοχειρουργικής: Triplex αγγείων, θεραπεία κιρσών με laser (EVLA), σκληροθεραπεία, αντιμετώπιση αρτηριακών παθήσεων. Ιατρεία σε Χαλάνδρι & Πειραιά." />
+        <meta name="keywords" content="triplex αγγείων, υπερηχογράφημα φλεβών, θεραπεία κιρσών, laser κιρσοί, EVLA, ενδοφλεβική θεραπεία laser, σκληροθεραπεία, αφαίρεση κιρσών, αρτηριακές παθήσεις, αγγειοπλαστική, stent αγγείων, αγγειοχειρουργός Αθήνα, ελάχιστα επεμβατικές τεχνικές, ενδαγγειακή θεραπεία" />
+        <link rel="canonical" href="https://aggeio.eu/services" />
+      </Helmet>
       <Header />
       
       {/* Hero Section */}

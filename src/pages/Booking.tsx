@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Phone, Mail, MapPin, ExternalLink, Send, CheckCircle } from "lucide-react";
@@ -94,6 +95,12 @@ export default function BookingPage() {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Κλείστε Ραντεβού | Δημήτριος Χαϊδάρογλου - Αγγειοχειρουργός</title>
+        <meta name="description" content="Κλείστε ραντεβού με τον αγγειοχειρουργό Δημήτριο Χαϊδάρογλου. Ιατρεία σε Χαλάνδρι και Πειραιά. Online φόρμα ή τηλεφωνικά στο 697 848 0523." />
+        <meta name="keywords" content="ραντεβού αγγειοχειρουργός, κλείσιμο ραντεβού, αγγειοχειρουργός Χαλάνδρι, αγγειοχειρουργός Πειραιάς, εξέταση κιρσών, triplex αγγείων ραντεβού" />
+        <link rel="canonical" href="https://aggeio.eu/booking" />
+      </Helmet>
       <Header />
       
       {/* Hero Section */}

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Link } from "react-router-dom";
@@ -370,6 +371,12 @@ const conditions = [
 export default function ConditionsPage() {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Αγγειακές Παθήσεις | Δημήτριος Χαϊδάρογλου - Αγγειοχειρουργός</title>
+        <meta name="description" content="Ενημερωθείτε για τις αγγειακές παθήσεις: φλεβική ανεπάρκεια, κιρσοί, ανεύρυσμα αορτής, περιφερική αρτηριακή νόσος, καρωτιδική νόσος. Συμπτώματα και σύγχρονες θεραπείες." />
+        <meta name="keywords" content="φλεβική ανεπάρκεια, χρόνια φλεβική ανεπάρκεια, κιρσοί ποδιών, φλεβίτιδα, θρόμβωση φλεβών, DVT, εν τω βάθει φλεβοθρόμβωση, ευρυαγγείες, τελαγγειεκτασίες, φλεβικά έλκη, ανεύρυσμα αορτής, ανεύρυσμα κοιλιακής αορτής, EVAR, περιφερική αρτηριακή νόσος, αθηροσκλήρυνση, διαλείπουσα χωλότητα, κρίσιμη ισχαιμία, καρωτιδική νόσος, στένωση καρωτίδας, εγκεφαλικό, διαβητικό πόδι" />
+        <link rel="canonical" href="https://aggeio.eu/conditions" />
+      </Helmet>
       <Header />
       
       {/* Hero Section */}
