@@ -140,12 +140,6 @@ export function Footer() {
               >
                 Πολιτική Απορρήτου
               </Link>
-              <Link
-                to="/terms"
-                className="text-primary-foreground/60 hover:text-primary-foreground transition-colors text-sm"
-              >
-                Όροι Χρήσης
-              </Link>
             </div>
           </div>
         </div>
