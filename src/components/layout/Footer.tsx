@@ -36,6 +36,7 @@ export function Footer() {
                 { label: "Αρχική", path: "/" },
                 { label: "Σχετικά με Εμάς", path: "/about" },
                 { label: "Υπηρεσίες", path: "/services" },
+                { label: "Ιατρικές Παθήσεις", path: "/conditions" },
                 { label: "Κριτικές Ασθενών", path: "/reviews" },
                 { label: "Κλείστε Ραντεβού", path: "/booking" },
               ].map((link) => (
