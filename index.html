@@ -57,22 +57,50 @@
     <!-- Canonical -->
     <link rel="canonical" href="https://aggeio.eu/" />
     
-    <!-- Schema.org Markup -->
+    <!-- Schema.org Markup - Physician -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "name": "Dr. Δημήτριος Χαϊδάρογλου",
-      "description": "Ειδικευμένος Αγγειοχειρουργός με 10+ χρόνια εμπειρίας.",
-      "medicalSpecialty": "Vascular Surgery",
+      "@id": "https://aggeio.eu/#physician",
+      "name": "Δρ. Δημήτριος Χαϊδάρογλου",
+      "alternateName": "Dr. Dimitrios Chaidaroglou",
+      "description": "Ειδικευμένος Αγγειοχειρουργός με 10+ χρόνια εμπειρίας στη θεραπεία κιρσών, φλεβικής ανεπάρκειας και αρτηριακών παθήσεων. Εξειδίκευση σε ενδοφλεβική θεραπεία laser (EVLA).",
+      "medicalSpecialty": ["Vascular Surgery", "Phlebology", "Endovascular Surgery"],
       "telephone": "+306978480523",
       "email": "info@aggeio.eu",
       "url": "https://aggeio.eu",
+      "image": "https://aggeio.eu/og-image.jpg",
+      "sameAs": [
+        "https://www.doctoranytime.gr/d/Aggeiocheirourgos/xaidaroglou-dimitrios"
+      ],
+      "knowsLanguage": ["el", "en"],
+      "availableService": [
+        {
+          "@type": "MedicalProcedure",
+          "name": "Ενδοφλεβική Θεραπεία Laser (EVLA)",
+          "procedureType": "Therapeutic",
+          "description": "Ελάχιστα επεμβατική θεραπεία κιρσών με laser"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Triplex Αγγείων",
+          "procedureType": "Diagnostic",
+          "description": "Υπερηχογραφικός έλεγχος αρτηριών και φλεβών"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Σκληροθεραπεία",
+          "procedureType": "Therapeutic",
+          "description": "Θεραπεία φλεβικών ανεπαρκειών με έγχυση"
+        }
+      ],
       "address": [
         {
           "@type": "PostalAddress",
           "streetAddress": "Σωκράτους 16",
           "addressLocality": "Χαλάνδρι",
+          "addressRegion": "Αττική",
           "postalCode": "15232",
           "addressCountry": "GR"
         },
@@ -80,6 +108,7 @@
           "@type": "PostalAddress",
           "streetAddress": "Λεωφόρος Εθνικής Αντιστάσεως 91",
           "addressLocality": "Πειραιάς",
+          "addressRegion": "Αττική",
           "postalCode": "18534",
           "addressCountry": "GR"
         }
@@ -87,10 +116,106 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1000",
         "reviewCount": "1000"
+      },
+      "priceRange": "€€"
+    }
+    </script>
+
+    <!-- Schema.org Markup - MedicalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "@id": "https://aggeio.eu/#clinic",
+      "name": "Αγγειοχειρουργικό Ιατρείο Δρ. Χαϊδάρογλου",
+      "description": "Εξειδικευμένο αγγειοχειρουργικό ιατρείο για θεραπεία κιρσών, φλεβικής ανεπάρκειας και αρτηριακών παθήσεων",
+      "url": "https://aggeio.eu",
+      "telephone": "+306978480523",
+      "email": "info@aggeio.eu",
+      "image": "https://aggeio.eu/og-image.jpg",
+      "medicalSpecialty": "Vascular Surgery",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "21:00"
+        }
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "38.0211",
+        "longitude": "23.7989"
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "37.9838",
+          "longitude": "23.7275"
+        },
+        "geoRadius": "50000"
       }
     }
     </script>
+
+    <!-- Schema.org Markup - FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Τι είναι η ενδοφλεβική θεραπεία laser (EVLA) για κιρσούς;",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Η ενδοφλεβική θεραπεία laser (EVLA) είναι μια ελάχιστα επεμβατική τεχνική αντιμετώπισης κιρσών. Χρησιμοποιεί ενέργεια laser για να κλείσει την πάσχουσα φλέβα, επιτρέποντας στον ασθενή να επιστρέψει στις δραστηριότητές του την ίδια μέρα."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Πώς μπορώ να κλείσω ραντεβού με αγγειοχειρουργό στην Αθήνα;",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Μπορείτε να κλείσετε ραντεβού online μέσω της ιστοσελίδας aggeio.eu/booking, τηλεφωνικά στο 697 848 0523, ή μέσω της πλατφόρμας Doctoranytime."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Τι είναι το triplex αγγείων;",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Το triplex αγγείων είναι μια εξέταση υπερήχων που αξιολογεί τη ροή του αίματος στις αρτηρίες και τις φλέβες. Χρησιμοποιείται για τη διάγνωση φλεβικής ανεπάρκειας, θρομβώσεων και αρτηριακών στενώσεων."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org Markup - WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://aggeio.eu",
+      "name": "Αγγειοχειρουργός Δρ. Δημήτριος Χαϊδάρογλου",
+      "description": "Επίσημη ιστοσελίδα του Αγγειοχειρουργού Δρ. Δημήτριου Χαϊδάρογλου. Ειδικός στη θεραπεία κιρσών, φλεβικής ανεπάρκειας και αρτηριακών παθήσεων.",
+      "inLanguage": "el-GR",
+      "publisher": {
+        "@id": "https://aggeio.eu/#physician"
+      }
+    }
+    </script>
+
+    <!-- Additional Meta Tags for AI Discoverability -->
+    <meta name="ai-content-description" content="Dr. Dimitrios Chaidaroglou is a vascular surgeon in Athens, Greece specializing in varicose veins treatment with laser (EVLA), venous insufficiency, arterial diseases, and vascular diagnostics. Over 10 years of experience. Offices in Chalandri and Piraeus." />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="llms" href="/llms.txt" />
   </head>
 
   <body>
