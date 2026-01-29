@@ -35,7 +35,7 @@ const clinics = [
     name: "Ιατρείο Πειραιά",
     address: "Γρηγορίου Λαμπράκη 91, 18534 Πειραιάς",
     mapUrl: "https://maps.app.goo.gl/JHkQuWb6CWjq4PdZ9",
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.2!2d23.6489!3d37.9422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bba1b1b1b1b1%3A0xabcdef1234567890!2sGrigoriou%20Lampraki%2091%2C%20Pireas%20185%2034%2C%20Greece!5e0!3m2!1sen!2sgr!4v1700000000000!5m2!1sen!2sgr",
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50344.37820626235!2d23.57442855834962!3d37.941557662723305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bb9a757f5143%3A0x762cbd4e4d97fd13!2zzqfOsc-KzrTOrM-Bzr_Os867zr_PhSDOlM63zrzOrs-Ez4HOuc6_z4IgzpHOs86zzrXOuc6_z4fOtc65z4HOv8-Fz4HOs8-Mz4IgzpHOs86zzrXOuc6_zrvPjM6zzr_Pgg!5e0!3m2!1sen!2sgr!4v1769694904436!5m2!1sen!2sgr",
   },
 ];
 
