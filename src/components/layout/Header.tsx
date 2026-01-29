@@ -46,7 +46,7 @@ export function Header() {
           <Link to="/" className="flex items-center gap-2 shrink-0">
             <img 
               src={logo} 
-              alt="Dr. Χαϊδάρογλου Logo" 
+              alt="Χαϊδάρογλου Logo" 
               className="w-10 h-10 md:w-12 md:h-12 object-contain"
             />
             <div className="hidden lg:block">
@@ -55,7 +55,7 @@ export function Header() {
                   isScrolled ? "text-foreground" : "text-primary-foreground"
                 }`}
               >
-                Dr. Χαϊδάρογλου
+                Δημήτριος Χαϊδάρογλου
               </p>
               <p
                 className={`text-xs ${

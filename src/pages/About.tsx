@@ -57,7 +57,7 @@ export default function AboutPage() {
               Σχετικά με Εμάς
             </h1>
             <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto">
-              Γνωρίστε τον Dr. Δημήτριο Χαϊδάρογλου και το όραμά του για τη σύγχρονη αγγειοχειρουργική.
+              Γνωρίστε τον Δημήτριο Χαϊδάρογλου και το όραμά του για τη σύγχρονη αγγειοχειρουργική.
             </p>
           </motion.div>
         </div>
@@ -78,7 +78,7 @@ export default function AboutPage() {
                 <div className="rounded-2xl overflow-hidden shadow-hero">
                   <img
                     src={doctorPortrait}
-                    alt="Dr. Δημήτριος Χαϊδάρογλου"
+                    alt="Δημήτριος Χαϊδάρογλου"
                     className="w-full h-auto object-cover"
                   />
                 </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl font-heading font-bold text-foreground mb-6">
-                Dr. Δημήτριος Χαϊδάρογλου
+                Δημήτριος Χαϊδάρογλου
               </h2>
               <p className="text-lg text-primary font-medium mb-4">
                 Ειδικευμένος Αγγειοχειρουργός
@@ -133,7 +133,7 @@ export default function AboutPage() {
               
               <div className="prose prose-lg text-muted-foreground space-y-4 mb-8">
                 <p>
-                  Ο Dr. Δημήτριος Χαϊδάρογλου είναι ειδικευμένος αγγειοχειρουργός με περισσότερα 
+                  Ο Δημήτριος Χαϊδάρογλου είναι ειδικευμένος αγγειοχειρουργός με περισσότερα 
                   από 10 χρόνια εμπειρίας στη σύγχρονη αγγειοχειρουργική και τις ενδαγγειακές τεχνικές.
                 </p>
                 <p>

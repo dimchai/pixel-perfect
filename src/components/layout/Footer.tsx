@@ -12,12 +12,12 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <img 
                 src={logo} 
-                alt="Dr. Χαϊδάρογλου Logo - Αγγειοχειρουργός" 
+                alt="Χαϊδάρογλου Logo - Αγγειοχειρουργός" 
                 className="w-14 h-14 object-contain"
               />
               <div>
                 <p className="font-heading font-semibold text-lg">
-                  Dr. Δημήτριος Χαϊδάρογλου
+                  Δημήτριος Χαϊδάρογλου
                 </p>
                 <p className="text-primary-foreground/80 text-sm">
                   Ειδικευμένος Αγγειοχειρουργός
@@ -131,7 +131,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-primary-foreground/60 text-sm text-center md:text-left">
-              © {new Date().getFullYear()} Dr. Δημήτριος Χαϊδάρογλου. Με επιφύλαξη παντός δικαιώματος.
+              © {new Date().getFullYear()} Δημήτριος Χαϊδάρογλου. Με επιφύλαξη παντός δικαιώματος.
             </p>
             <div className="flex items-center gap-4">
               <Link
