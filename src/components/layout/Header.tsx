@@ -8,6 +8,7 @@ const navItems = [
   { label: "Αρχική", path: "/" },
   { label: "Σχετικά", path: "/about" },
   { label: "Υπηρεσίες", path: "/services" },
+  { label: "Παθήσεις", path: "/conditions" },
   { label: "Κριτικές", path: "/reviews" },
   { label: "Επικοινωνία", path: "/booking" },
 ];
