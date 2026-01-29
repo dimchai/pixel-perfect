@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/select";
 import { motion } from "framer-motion";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
 const clinics = [
   {
@@ -46,29 +47,49 @@ export default function BookingPage() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-
-    setIsSubmitting(false);
-    setIsSuccess(true);
-    
-    toast({
-      title: "Επιτυχής Αποστολή!",
-      description: "Θα επικοινωνήσουμε μαζί σας σύντομα για επιβεβαίωση του ραντεβού.",
-    });
-
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setIsSuccess(false);
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        service: "",
-        clinic: "",
-        message: "",
+    try {
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: {
+          name: formData.name.trim(),
+          email: formData.email.trim(),
+          phone: formData.phone.trim(),
+          service: formData.service,
+          clinic: formData.clinic,
+          message: formData.message.trim() || undefined,
+        },
       });
-    }, 3000);
+
+      if (error) throw error;
+
+      setIsSuccess(true);
+      
+      toast({
+        title: "Επιτυχής Αποστολή!",
+        description: "Θα επικοινωνήσουμε μαζί σας σύντομα για επιβεβαίωση του ραντεβού.",
+      });
+
+      // Reset form after 3 seconds
+      setTimeout(() => {
+        setIsSuccess(false);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          service: "",
+          clinic: "",
+          message: "",
+        });
+      }, 3000);
+    } catch (error) {
+      console.error("Error sending email:", error);
+      toast({
+        title: "Σφάλμα",
+        description: "Δεν ήταν δυνατή η αποστολή. Παρακαλώ δοκιμάστε ξανά ή καλέστε μας.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
