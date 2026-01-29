@@ -29,7 +29,7 @@ const clinics = [
     name: "Ιατρείο Χαλανδρίου",
     address: "Σωκράτους 16, 15232 Χαλάνδρι",
     mapUrl: "https://maps.app.goo.gl/aSKSotJm89WoPdSe9",
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.8!2d23.7939!3d38.0211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a2a7a7c7c7c7%3A0x1234567890abcdef!2sSokratous%2016%2C%20Chalandri%20152%2032%2C%20Greece!5e0!3m2!1sen!2sgr!4v1700000000000!5m2!1sen!2sgr",
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d50296.60163556726!2d23.70798110961915!3d38.011244635604626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zzqfOsc-KzrTOrM-Bzr_Os867zr_PhSDOlM63zrzOrs-Ez4HOuQ!5e0!3m2!1sen!2sgr!4v1769694973808!5m2!1sen!2sgr",
   },
   {
     name: "Ιατρείο Πειραιά",
