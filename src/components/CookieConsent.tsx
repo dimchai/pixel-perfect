@@ -2,6 +2,7 @@ import { useState, useEffect, forwardRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Cookie, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const COOKIE_CONSENT_KEY = "cookie-consent";
 
@@ -88,7 +89,10 @@ const CookieConsent = forwardRef<HTMLDivElement>((_, ref) => {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   Χρησιμοποιούμε cookies για να βελτιώσουμε την εμπειρία σας στον ιστότοπό μας, 
                   να αναλύσουμε την επισκεψιμότητα και να προβάλλουμε εξατομικευμένες διαφημίσεις. 
-                  Πατώντας "Αποδοχή", συναινείτε στη χρήση όλων των cookies.
+                  Πατώντας "Αποδοχή", συναινείτε στη χρήση όλων των cookies.{" "}
+                  <Link to="/privacy" className="text-primary hover:underline">
+                    Πολιτική Απορρήτου
+                  </Link>
                 </p>
               </div>
               

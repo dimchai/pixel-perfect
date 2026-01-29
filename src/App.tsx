@@ -10,6 +10,7 @@ import Reviews from "./pages/Reviews";
 import Booking from "./pages/Booking";
 import Conditions from "./pages/Conditions";
 import CV from "./pages/CV";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 import CookieConsent from "./components/CookieConsent";
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/cv" element={<CV />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
