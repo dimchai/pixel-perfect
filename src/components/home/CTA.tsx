@@ -51,7 +51,7 @@ export function CTA() {
               <Button
                 size="lg"
                 variant="outline"
-                className="w-full sm:w-auto border-primary-foreground/50 text-primary-foreground hover:bg-primary-foreground/10 font-semibold text-base px-8"
+                className="w-full sm:w-auto border-primary-foreground/50 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 hover:text-primary-foreground font-semibold text-base px-8"
               >
                 <ExternalLink className="w-5 h-5 mr-2" />
                 Doctoranytime
