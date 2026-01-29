@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { GraduationCap, Award, MapPin, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { LazyImage } from "@/components/ui/lazy-image";
 import doctorPortrait from "@/assets/doctor-portrait.jpg";
 
 const credentials = [
@@ -36,7 +37,7 @@ export function About() {
             className="relative"
           >
             <div className="relative rounded-2xl overflow-hidden shadow-hero">
-              <img
+              <LazyImage
                 src={doctorPortrait}
                 alt="Δημήτριος Χαϊδάρογλου"
                 className="w-full h-auto object-cover"

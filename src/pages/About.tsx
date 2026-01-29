@@ -4,6 +4,7 @@ import { GraduationCap, Award, MapPin, Phone, Mail, ExternalLink, Calendar } fro
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { LazyImage } from "@/components/ui/lazy-image";
 import doctorPortrait from "@/assets/doctor-portrait.jpg";
 
 const education = [
@@ -76,7 +77,7 @@ export default function AboutPage() {
             >
               <div className="sticky top-24">
                 <div className="rounded-2xl overflow-hidden shadow-hero">
-                  <img
+                  <LazyImage
                     src={doctorPortrait}
                     alt="Δημήτριος Χαϊδάρογλου"
                     className="w-full h-auto object-cover"
