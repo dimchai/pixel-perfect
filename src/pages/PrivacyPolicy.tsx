@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -68,6 +69,12 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Πολιτική Απορρήτου | Δημήτριος Χαϊδάρογλου - Αγγειοχειρουργός</title>
+        <meta name="description" content="Πολιτική απορρήτου και προστασία προσωπικών δεδομένων. Μάθετε πώς συλλέγουμε, χρησιμοποιούμε και προστατεύουμε τα δεδομένα σας σύμφωνα με το GDPR." />
+        <meta name="keywords" content="πολιτική απορρήτου, GDPR, προστασία δεδομένων, cookies, προσωπικά δεδομένα, ιατρικά δεδομένα" />
+        <link rel="canonical" href="https://aggeio.eu/privacy" />
+      </Helmet>
       <Header />
       
       <main className="pt-24 pb-16">
