@@ -10,6 +10,7 @@ const navItems = [
   { label: "Σχετικά", path: "/about" },
   { label: "Υπηρεσίες", path: "/services" },
   { label: "Παθήσεις", path: "/conditions" },
+  { label: "Βιογραφικό", path: "/cv" },
   { label: "Κριτικές", path: "/reviews" },
   { label: "Επικοινωνία", path: "/booking" },
 ];
