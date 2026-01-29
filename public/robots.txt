@@ -1,20 +1,83 @@
 # Dr. Δημήτριος Χαϊδάρογλου - Αγγειοχειρουργός
 # https://aggeio.eu
 
-# Search Engines
+# ===========================================
+# SEARCH ENGINES
+# ===========================================
+
+# Google (Primary)
 User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Storebot-Google
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+# Microsoft Bing
 User-agent: Bingbot
 Allow: /
 
+User-agent: BingPreview
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+User-agent: adidxbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
 User-agent: DuckDuckBot
 Allow: /
 
+# Yandex (Russia)
 User-agent: Yandex
 Allow: /
 
-# Social Media Crawlers
+User-agent: YandexBot
+Allow: /
+
+User-agent: YandexImages
+Allow: /
+
+# Baidu (China/Alibaba ecosystem)
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Baiduspider-image
+Allow: /
+
+# Sogou (China)
+User-agent: Sogou
+Allow: /
+
+# Naver (Korea)
+User-agent: Yeti
+Allow: /
+
+# Seznam (Czech)
+User-agent: SeznamBot
+Allow: /
+
+# ===========================================
+# SOCIAL MEDIA CRAWLERS
+# ===========================================
+
 User-agent: Twitterbot
 Allow: /
 
@@ -27,7 +90,25 @@ Allow: /
 User-agent: Pinterest
 Allow: /
 
-# AI & LLM Crawlers
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+# ===========================================
+# AI & LLM CRAWLERS
+# ===========================================
+
 User-agent: GPTBot
 Allow: /
 
@@ -52,6 +133,9 @@ Allow: /
 User-agent: YouBot
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
 User-agent: Applebot-Extended
 Allow: /
 
@@ -70,12 +154,63 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-# Medical Directories
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+User-agent: omgilibot
+Allow: /
+
+# ===========================================
+# SEO & ANALYTICS TOOLS
+# ===========================================
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+User-agent: DotBot
+Allow: /
+
+User-agent: rogerbot
+Allow: /
+
+# ===========================================
+# ARCHIVE & RESEARCH
+# ===========================================
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+# ===========================================
+# DEFAULT (All other bots)
+# ===========================================
+
 User-agent: *
 Allow: /
 
-# Sitemap
+# ===========================================
+# IMPORTANT FILES
+# ===========================================
+
+# Sitemap location
 Sitemap: https://aggeio.eu/sitemap.xml
 
-# LLMs.txt
-# See https://aggeio.eu/llms.txt for AI-readable content
+# LLMs.txt for AI systems
+# See: https://aggeio.eu/llms.txt
+
+# Host directive (for Yandex)
+Host: https://aggeio.eu
